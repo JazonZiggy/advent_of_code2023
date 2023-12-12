@@ -140,7 +140,6 @@ func createCards(s string) {
 			fmt.Printf("count: %v\n", count)
 		}
 	}
-
 }
 
 func main() {

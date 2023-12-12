@@ -40,7 +40,6 @@ func GetNumbers(t string) int {
 
 	var firstNumber string = "-1"
 	var secondNumber string
-
 	for pos, char := range t {
 		//fmt.Printf("Caractere %c at position %d\n", char, pos)
 		if _, err := strconv.Atoi(string(char)); err == nil {
